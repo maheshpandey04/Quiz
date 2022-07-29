@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+<!--    <WebView-->
+<!--        android:id="@+id/myWebView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+
+<!--        />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_marginTop="40dp"
+        android:text="Welcome To"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="44sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="GamingZone"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:src="@drawable/meraki"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="64dp"
+        android:id="@+id/img"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Start Game"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="44dp"
+        android:layout_below="@id/img"
+        />
+
+
+</RelativeLayout>
